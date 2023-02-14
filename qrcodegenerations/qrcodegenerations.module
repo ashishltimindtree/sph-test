@@ -1,0 +1,14 @@
+<?php
+
+/**
+ * @file
+ * Implements hook theme.
+ */
+
+function qrcodegenerations_theme($existing, $type, $theme, $path) {
+  return [
+    'qr_code' => [
+      'variables' => ['qr_code' => NULL],
+    ],
+  ];
+}

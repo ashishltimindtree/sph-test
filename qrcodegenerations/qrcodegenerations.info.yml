@@ -1,0 +1,6 @@
+name: QR code Product
+type: module
+description: 'Add Qr code for the products.'
+core_version_requirement: ^8.9 || ^9
+dependencies:
+  - node

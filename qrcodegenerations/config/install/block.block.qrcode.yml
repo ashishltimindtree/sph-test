@@ -1,0 +1,28 @@
+uuid: 2738c03e-a39a-4f1f-b90b-7d6893842a22
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - qrcodegenerations
+  theme:
+    - olivero
+id: qrcode
+theme: olivero
+region: sidebar
+weight: 0
+provider: null
+plugin: qrcode
+settings:
+  id: qrcode
+  label: 'Qr Code'
+  label_display: '0'
+  provider: qrcodegenerations
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      products: products

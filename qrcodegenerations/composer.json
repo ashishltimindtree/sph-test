@@ -1,0 +1,10 @@
+{
+    "name": "drupal/qrcodegenerations",
+    "description": "Module to convert link to QR code.",
+    "type": "drupal-custom-module",
+    "require": {
+        "chillerlan/php-qrcode": "^4.3"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

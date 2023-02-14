@@ -1,0 +1,3 @@
+services:
+  qr_code_generator:
+    class: Drupal\qrcodegenerations\Service\GenerateQrCode
